@@ -33,7 +33,7 @@ test.describe('User should be able to open the dropdown and select a category' ,
         categories.selectCategory("Contact Info")
         categories.confirmSelection();
         categories.closeDropdown();
-        categories.verifyselectionBadge("Personal Info");
+        categories.verifySelectionBadge("Personal Info");
         categories.verifyInputVisibility("Contact Info");
     })
 });
