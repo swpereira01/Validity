@@ -53,7 +53,7 @@ export class Categories{
         await this.categoryDropdownArrow.click();
         await this.page.waitForLoadState();
     }
-    async verifyselectionBadge(categoryName){
+    async verifySelectionBadge(categoryName){
         await expect(this.badge(categoryName)).toBeVisible();
     }
     async verifyInlineText(categoryName){
